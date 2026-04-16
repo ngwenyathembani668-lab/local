@@ -1,0 +1,12 @@
+#hero-section {
+    background-image: url(/src/Components/images/hero-section-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56rem;
+    
+}
+
+.hero-cont {
+    width: 100vw;
+}
