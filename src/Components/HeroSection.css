@@ -1,12 +1,66 @@
 #hero-section {
-    background-image: url(/src/Components/images/hero-section-img.png);
+    background-image: url(/src/Components/images/Hero-section-image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 56rem;
-    
+    height: 59rem;
+    color: #fff;
 }
 
-.hero-cont {
-    width: 100vw;
+.hero-text {
+    padding: 185px 0 0 50px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+#hero-text {
+    z-index: 1001;
+}
+
+.trust-badge {
+    display: flex;
+    align-items: center;
+    width: 295px;
+    padding: 5px 8px;
+    border-radius: 20px;
+    background: #39251c20;
+    /* background-color: #5C2910; */
+    backdrop-filter: blur(25px);
+    border: 1px solid #FF914D;
+}
+
+.trust-badge p {
+    color: #FF914D;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.badge {
+    fill: #FF914D;
+    margin-right: 8px;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+.p-tag {
+    font-size: 1.3rem;
+    font-weight: 500;
+    /* color: #FF914D; */
+    /* margin-left: 70px; */
+}
+
+.overlay {
+    background-color: #000;
+    position: absolute;
+    z-index: 1;
+    opacity: 35%;
+    width: 30vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
 }

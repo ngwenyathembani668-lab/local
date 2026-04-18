@@ -33,7 +33,7 @@ function Header () {
             </div>
 
             <div className="header-cta">
-                <button>Free Audit</button>
+                <a>Free Audit</a>
             </div>
 
         </nav>

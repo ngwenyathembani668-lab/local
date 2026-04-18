@@ -6,6 +6,17 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1001;
+}
+
+.logo > label {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.logo > label > span {
+    color: #FF914D;
 }
 
 .nav-links ul{
@@ -17,10 +28,36 @@ nav {
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 8px;
-    color: #000;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .nav-links > ul > li > a:hover {
-    background-color: #efefef;
+    color: #FF914D;
+    transition: 0.9s ease;
+}
 
+.header-cta {
+    width: 180px; 
+    display: flex;
+    justify-content: center;
+}
+
+.header-cta a {
+    padding: 8px 18px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    background-color: #FF914D; 
+}
+
+.header-cta a:hover {
+    /* background-color: #ee762b; */
+    background-color: #fff;
+    transition: 0.9s ease;
+    padding: 10px 20px;
+    cursor: pointer;
 }
