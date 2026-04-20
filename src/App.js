@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import HeroSection from "./Components/HeroSection";
+import WhatWeDo from "./WhatWeDo";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
         <Header />
 
         <HeroSection />
+
+        <WhatWeDo />
       </main>
       
     

@@ -7,6 +7,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     z-index: 1001;
+    /* background-color: #000; */
 }
 
 .logo > label {
@@ -56,8 +57,7 @@ nav {
 
 .header-cta a:hover {
     /* background-color: #ee762b; */
-    background-color: #fff;
+    background-color: #E07A38;
     transition: 0.9s ease;
-    padding: 10px 20px;
     cursor: pointer;
 }

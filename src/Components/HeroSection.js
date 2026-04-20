@@ -10,9 +10,7 @@ function HeroSection () {
         
         <section id="hero-section">
 
-            <div className='overlay'>
-                <p>.</p>
-            </div>
+            <div className='overlay'></div>
             
             <div id='hero-text' className='hero-text'>
 
@@ -42,38 +40,38 @@ function HeroSection () {
 
                 </div>
 
-                <div>
+                <div className='hero-cta'>
 
-                    <a href=''>Start Growing Today <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a>
-                    <a href=''>See Our Services</a>
+                    <a className='start' href=''>Start Growing Today <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></a>
+                    <a className='see' href=''>See Our Services</a>
 
                 </div>
 
-                <div>
+                <div className='hero-bottom'>
 
                     <div>
-                        <div>
+                        <div className='p-top'>
                             <p>100&#43;</p>
                         </div>
-                        <div>
+                        <div className='p-bottom'>
                             <p>Busineses Helped</p>
                         </div>
                     </div>
 
                     <div>
-                        <div>
+                        <div className='p-top'>
                             <p>3x</p>
                         </div>
-                        <div>
+                        <div className='p-bottom'>
                             <p>Avg. Traffic increase</p>
                         </div>
                     </div>
 
                     <div>
-                        <div>
+                        <div className='p-top'>
                             <p>98&#37;</p>
                         </div>
-                        <div>
+                        <div className='p-bottom'>
                             <p>Client Satisfaction</p>
                         </div>
                     </div>
