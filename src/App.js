@@ -5,17 +5,18 @@ import WhatWeDo from "./WhatWeDo";
 function App() {
   return (
     <>
+
+      <Header />
       <main>
-        <Header />
 
         <HeroSection />
 
         <WhatWeDo />
       </main>
-      
-    
+
+
     </>
-      
+
   );
 };
 

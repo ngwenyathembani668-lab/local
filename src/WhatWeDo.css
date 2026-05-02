@@ -1,3 +1,163 @@
-h1 {
-    text-align: center;
+.what-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-services {
+    padding: 80px 0;
+    background: #F8F8F8;
+}
+
+.what-top>.spanServices {
+    padding: 8px 12px;
+    background: #F8EDE6;
+    color: #FF914D;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+
+.what-top>h2 {
+    font-size: 2.8rem;
+    margin: 5px 0 25px 0;
+}
+
+.what-top>h2>span {
+    color: #FF914D;
+}
+
+.what-top>p {
+    color: #333;
+}
+
+.offer-svg,
+span,
+svg {
+    width: 18px;
+    fill: #FF914D;
+}
+
+
+.what-middle {
+    width: 100%;
+    padding: 0 80px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 19rem);
+    gap: 20px;
+}
+
+.offer-box {
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.offer-badge>span {
+    padding: 4px 8px;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+.offer-svg>span {
+    padding: 12px;
+    border-radius: 8px;
+    background: #FFF4ED;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+}
+
+.offer-svg>span>svg {
+    fill: #FF914D;
+}
+
+
+.product-description>p {
+    color: #333;
+    font-weight: 500;
+}
+
+.product-description>h3 {
+    margin-bottom: 12px;
+}
+
+.offer-features>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.offer-features {
+    border-bottom: 1px solid #999;
+    padding-bottom: 25px;
+}
+
+.offer-features>ul>li {
+    display: flex;
+    color: #333;
+    gap: 7px;
+    font-size: 0.9rem;
+}
+
+.offer-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-price>div {
+    font-size: 0.9rem;
+    color: #FF914D;
+    font-weight: 600;
+}
+
+.offer-price>button {
+    padding: 4px 8px;
+    color: #000;
+    background: #FFF4ED;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.offer-price>button:hover {
+    background: #FF914D;
+    color: #000;
+    transition: 1.3s;
+    cursor: pointer;
+}
+
+.what-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.what-bottom>button {
+    padding: 12px 24px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.what-bottom>button:hover {
+    background: #FF914D;
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
 }

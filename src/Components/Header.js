@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import '../index.css';
 import './Header.css';
 
@@ -15,25 +16,38 @@ function Header () {
             <div className="nav-links">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <Link to={"/"}>
+                            Home
+                        </Link>
+                        {/* <a href="#">Home</a> */}
                     </li>
                     <li>
-                        <a href="">Services</a>
+                        <Link to={"/services"}>
+                            Services
+                        </Link>
                     </li>
                     <li>
-                        <a href="">About</a>
+                        <Link to={"/about"}>
+                            About
+                        </Link>
                     </li>
                     <li>
-                        <a href="">Testimonials</a>
+                        <Link to={"/testimonials"}>
+                            Testimonials
+                        </Link>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <Link to={"/contact"}>
+                            Contact
+                        </Link>
                     </li>
                 </ul>
             </div>
 
             <div className="header-cta">
-                <a>Free Audit</a>
+                <Link to={"/contact"}>
+                    Free Audit
+                </Link>
             </div>
 
         </nav>
