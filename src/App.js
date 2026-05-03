@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import HeroSection from "./Components/HeroSection";
+import Testimonial from "./Testimonial";
 import WhatWeDo from "./WhatWeDo";
 import WhyUs from "./WhyUs";
 
@@ -15,6 +16,8 @@ function App() {
         <WhatWeDo />
 
         <WhyUs />
+
+        <Testimonial />
       </main>
 
 

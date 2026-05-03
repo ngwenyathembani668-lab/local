@@ -1,0 +1,85 @@
+.test-badge {
+    padding: 8px 12px;
+    /* background: #F8EDE6; */
+    background: #000;
+    color: #FF914D;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 2px solid #FF914D;
+}
+
+.testimonial-section {
+    background: #eeeaea;
+    padding: 120px 40px;
+    /* display: flex; */
+}
+
+.test-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.test-head {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.head-text h4 {
+    font-size: 2.8rem;
+    line-height: 2.9rem;
+}
+
+.head-text span {
+    color: #FF914D;
+}
+
+.test-top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 150px;
+}
+
+
+.img > img {
+    width: 25rem;
+    border-radius: 20px;
+}
+
+.client-test {
+    width: 500px;
+    /* margin-left: auto; */
+}
+
+.claim {
+    background: #FF914D;
+    font-size: 0.9rem;
+    font-weight: 660;
+    position: relative;
+    bottom: 80px;
+    width: 150px;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+    left: 320px;
+}
+
+.client-profile > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.client-info {
+    display: flex;
+    margin-top: 20px;
+    gap: 12px;
+    /* margin-bottom: auto; */
+}
+
+.browse {
+    margin-top: auto;
+}
